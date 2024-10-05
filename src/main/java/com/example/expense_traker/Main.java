@@ -25,7 +25,6 @@ public class Main extends Application {
         //VARIABLE
         StageStyle stageStyle;
         Scene scene = new Scene(fxmlLoader.load());
-
         stage.setMaximized(true);
 
         stage.setScene(scene);
