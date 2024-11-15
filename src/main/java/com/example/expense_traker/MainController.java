@@ -16,26 +16,18 @@ public class MainController implements Initializable {
     @FXML
     public LineChart<Number,Number> lineChart;
     @FXML
-    public NumberAxis xAxis;
-    @FXML
-    public NumberAxis yAxis;
-    @FXML
     public AnchorPane anchorPane;
 
     //Variables
     public LocalDate ldt = LocalDate.now();
-
-
+    public Label billLabel;
 
     //xAxis
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
         System.out.println(ldt);
-        xAxis.setTickUnit(1);
-        xAxis.setAutoRanging(false);
     }
 
     @FXML

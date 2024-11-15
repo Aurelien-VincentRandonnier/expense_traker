@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.shape.*?>
-<?import java.lang.*?>
 <?import javafx.geometry.*?>
-<?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: h;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.expense_traker.MainController">
-   <children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: h;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.expense_traker.MainController">
+   
       <BorderPane prefHeight="1087.0" prefWidth="1926.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <left>
             <AnchorPane prefHeight="1059.0" prefWidth="200.0" style="-fx-background-color: black;">
-               <children>
+               
                   <VBox layoutY="188.0" AnchorPane.topAnchor="188.0" BorderPane.alignment="CENTER">
-                     <children>
+                     
                         <Pane prefHeight="200.0" prefWidth="200.0">
-                           <children>
+                           
                               <SVGPath content="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" fill="WHITE" layoutX="-188.0" layoutY="-156.0" scaleX="0.15" scaleY="0.15" />
-                           </children>
+                           
                            <VBox.margin>
                               <Insets />
                            </VBox.margin>
                         </Pane>
                         <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
-                           <children>
+                           
                               <SVGPath content="M160 80c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-352zM0 272c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 272zM368 96l32 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48z" fill="WHITE" layoutX="-124.0" layoutY="-156.0" scaleX="0.17" scaleY="0.17" />
-                           </children>
+                           
                         </Pane>
                         <Pane layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0">
-                           <children>
+
                               <SVGPath content="M160 80c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-352zM0 272c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 272zM368 96l32 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48z" fill="WHITE" layoutX="-124.0" layoutY="-156.0" scaleX="0.17" scaleY="0.17" />
-                           </children>
+
                         </Pane>
-                     </children>
+
                      <BorderPane.margin>
                         <Insets />
                      </BorderPane.margin>
                   </VBox>
+            <Pane layoutY="94.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0">
+               <children>
+                  <SVGPath content="M160 80c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-352zM0 272c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 272zM368 96l32 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48z" fill="WHITE" layoutX="-124.0" layoutY="-156.0" scaleX="0.17" scaleY="0.17" />
                </children>
+            </Pane>
+               
             </AnchorPane>
          </left>
          <top>
@@ -46,44 +50,141 @@
          </top>
          <center>
             <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
-               <children>
-                  <HBox prefHeight="298.0" prefWidth="1720.0" style="-fx-background-color: red;" VBox.vgrow="ALWAYS">
-                     <children>
-                        <Pane prefHeight="200.0" prefWidth="400.0" style="-fx-background-radius: 15; -fx-background-color: grey;" styleClass="border">
+               
+                  <HBox prefHeight="298.0" prefWidth="1720.0" VBox.vgrow="ALWAYS">
+                     
+                        <AnchorPane prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: grey; -fx-background-radius: 15;">
                            <HBox.margin>
-                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                            </HBox.margin>
-                        </Pane>
-                        <Pane layoutX="40.0" layoutY="20.0" prefHeight="200.0" prefWidth="400.0" style="-fx-background-radius: 15; -fx-background-color: grey;" styleClass="border">
-                           <HBox.margin>
-                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
-                           </HBox.margin>
-                        </Pane>
-                        <Pane layoutX="40.0" layoutY="20.0" prefHeight="200.0" prefWidth="400.0" style="-fx-background-radius: 15; -fx-background-color: grey;" styleClass="border">
+                           
+                              <TextFlow layoutX="50.0" layoutY="36.0" prefHeight="104.0" prefWidth="200.0" textAlignment="CENTER">
+                                 
+                                    <Label fx:id="labDailyLife" alignment="CENTER" prefHeight="44.0" prefWidth="202.0" text="Daily Life">
+                                       <font>
+                                          <Font name="Consolas" size="33.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="valDailyLife" alignment="CENTER" prefHeight="58.0" prefWidth="204.0" text="100€">
+                                       <font>
+                                          <Font size="48.0" />
+                                       </font>
+                                    </Label>
+                                 
+                              </TextFlow>
+                           
+                           <padding>
+                              <Insets bottom="30.0" left="10.0" right="30.0" top="10.0" />
+                           </padding>
+                        </AnchorPane>
+                        <AnchorPane layoutX="40.0" layoutY="30.0" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: grey; -fx-background-radius: 15;">
+                           
+                              <TextFlow layoutX="50.0" layoutY="36.0" prefHeight="104.0" prefWidth="200.0" textAlignment="CENTER">
+                                 
+                                    <Label fx:id="labBill" alignment="CENTER" prefHeight="44.0" prefWidth="202.0" text="Bill">
+                                       <font>
+                                          <Font name="Consolas" size="33.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="valsBill" alignment="CENTER" prefHeight="58.0" prefWidth="204.0" text="100€">
+                                       <font>
+                                          <Font size="48.0" />
+                                       </font>
+                                    </Label>
+                                 
+                              </TextFlow>
+                           
                            <padding>
                               <Insets bottom="30.0" left="10.0" right="30.0" top="10.0" />
                            </padding>
                            <HBox.margin>
-                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                            </HBox.margin>
-                        </Pane>
-                        <Pane layoutX="270.0" layoutY="10.0" prefHeight="200.0" prefWidth="400.0" style="-fx-background-radius: 15; -fx-background-color: grey;" styleClass="border">
+                        </AnchorPane>
+                        <AnchorPane layoutX="380.0" layoutY="30.0" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: grey; -fx-background-radius: 15;">
+                           
+                              <TextFlow layoutX="50.0" layoutY="36.0" prefHeight="104.0" prefWidth="214.0" textAlignment="CENTER">
+                                 
+                                    <Label fx:id="labMyself" alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="214.0" text="Myself">
+                                       <font>
+                                          <Font name="Consolas" size="33.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="valMyself" alignment="CENTER" prefHeight="58.0" prefWidth="204.0" text="100€">
+                                       <font>
+                                          <Font size="48.0" />
+                                       </font>
+                                    </Label>
+                                 
+                              </TextFlow>
+                           
                            <padding>
                               <Insets bottom="30.0" left="10.0" right="30.0" top="10.0" />
                            </padding>
                            <HBox.margin>
-                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                            </HBox.margin>
-                        </Pane>
-                     </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="700.0" layoutY="10.0" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: grey; -fx-background-radius: 15;">
+                           
+                              <TextFlow layoutX="50.0" layoutY="36.0" prefHeight="104.0" prefWidth="200.0" textAlignment="CENTER">
+                                 
+                                    <Label fx:id="labOther" alignment="CENTER" prefHeight="44.0" prefWidth="202.0" text="Other">
+                                       <font>
+                                          <Font name="Consolas" size="33.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="valOther" alignment="CENTER" prefHeight="58.0" prefWidth="204.0" text="100€">
+                                       <font>
+                                          <Font size="48.0" />
+                                       </font>
+                                    </Label>
+                                 
+                              </TextFlow>
+                           
+                           <padding>
+                              <Insets bottom="30.0" left="10.0" right="30.0" top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </HBox.margin>
+                        </AnchorPane>
+                        <AnchorPane layoutX="700.0" layoutY="10.0" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: grey; -fx-background-radius: 15;">
+                           
+                              <TextFlow layoutX="50.0" layoutY="36.0" prefHeight="104.0" prefWidth="200.0" textAlignment="CENTER">
+                                 
+                                    <Label fx:id="labTotal" alignment="CENTER" prefHeight="44.0" prefWidth="202.0" text="Total">
+                                       <font>
+                                          <Font name="Consolas" size="33.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="valTotal" alignment="CENTER" prefHeight="58.0" prefWidth="204.0" text="100€">
+                                       <font>
+                                          <Font size="48.0" />
+                                       </font>
+                                    </Label>
+                                 
+                              </TextFlow>
+                           
+                           <padding>
+                              <Insets bottom="30.0" left="10.0" right="30.0" top="10.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </HBox.margin>
+                        </AnchorPane>
+                     
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
                   </HBox>
                   <HBox prefHeight="948.0" prefWidth="1720.0">
-                     <children>
+                     
                         <VBox prefHeight="888.0" prefWidth="949.0" HBox.hgrow="ALWAYS">
-                           <children>
-                              <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: orange;" VBox.vgrow="ALWAYS" />
-                              <Pane prefHeight="0.0" prefWidth="1234.0" style="-fx-background-color: yellow;" VBox.vgrow="ALWAYS" />
-                           </children>
+                           
+                              <Pane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                              <Pane prefHeight="0.0" prefWidth="1234.0" VBox.vgrow="ALWAYS" />
+                           
                         </VBox>
                         <TableView prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                           <columns>
@@ -93,11 +194,11 @@
                               <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                            </columnResizePolicy>
                         </TableView>
-                     </children>
+                     
                   </HBox>
-               </children>
+               
             </VBox>
          </center>
       </BorderPane>
-   </children>
+   
 </AnchorPane>
